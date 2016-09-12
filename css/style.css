@@ -1,0 +1,784 @@
+* {
+	box-sizing:border-box;
+}
+html,
+body {
+	height:100%;
+	width:100%;
+	margin:0;
+}
+
+.wrapper {
+	min-height:100%;
+	position:relative;
+}
+
+/*body style*/
+
+.nav {
+	width:100%;
+	height:100%;
+	padding:30px;
+	background-image:url("../img/cameraHand.jpg");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.ori_nav {
+	width:100%;
+	height:100px;
+	padding:30px;
+	color:#000000;
+	background-image:none;
+	background-color:#ffffff;
+}
+
+.ori_nav .navlogo {
+	height:100px;
+	width:auto;
+	margin:auto;
+	float:left;
+}
+
+.ori_nav h1 {
+	display:none;
+}
+
+.ori_nav .topUN {
+	float:left;
+	width:90%;
+	margin:0;
+	margin-left:10px;
+	margin-top:30px;
+}
+
+.ori_nav .topNav {
+	font-size:18px;
+}
+
+.ori_nav .topNav a {
+	color:#000000;
+	text-decoration:none;
+}
+
+.ori_nav .topNav a:hover {
+	color:#000000;
+}
+
+.navlogo {
+	margin-left:500px;
+	margin-bottom:50px;
+	height:200px;
+	width:auto;
+}
+
+.nav h1 {
+	font-family:"Haragino Sans", sans-serif;
+	font-size:30px;
+	font-weight:lighter;
+	margin-left:60px;
+	color:#ffffff;
+	text-align:center;
+	margin-bottom:20px;
+}
+
+.topUN {
+	margin:0px 10% 0px 10%;
+	padding-left:0;
+	display:flex;
+	justify-content:space-between;
+}
+
+.topNav {
+	text-transform:uppercase;
+	list-style-type:none;
+	font-family:"Haragino Sans", sans-serif;
+	font-weight:lighter;
+	font-size:25px;
+	color:#ffffff;
+}
+
+
+
+.topNav a {
+	text-decoration:none;
+	color:#ffffff;
+}
+
+.topNav a:hover {
+	color:#ffffff;
+	transition:0.6s;
+	border-bottom:3px solid #ffffff;
+}
+
+/*body styles 2*/
+
+.two_wrapper {
+	width:100%;
+	min-height:300px;
+	padding:30px;
+}
+
+.credentials {
+	width:60%;
+	height:300px;
+	margin:auto;
+}
+
+.tube {
+	width:30px;
+	height:100%;
+	border:1px solid #000000;
+	border-radius:20px;
+	margin-left:35px;
+	margin-right:45px;
+	display:inline-block;
+	padding:2px;
+	position:relative;
+}
+
+.first {
+	margin-left:0%;
+}
+
+.last {
+	margin-right:0%;
+}
+
+.inner_tube {
+	position:absolute;
+	bottom:2;
+	width:25px;
+	height:25px;
+	border-radius:18px;
+	transition:height 0.6s;
+}
+
+.inner_css {
+	margin-left:25px;
+}
+
+.inner_php {
+	margin-left:15px;
+	margin-right:55px;
+}
+
+.inner_wordpress {
+	margin-right:63px;
+}
+
+.paragraph {
+	width:100%;
+	margin-top:0;
+	margin-bottom:0;
+	display:flex;
+	justify-content:space-between;
+	font-family:"Haragino Sans", sans-serif;
+	font-weight:lighter;
+	font-size:16px;
+}
+
+#html {
+	border:1px solid #ff9900;
+	background-color:#ff9900;
+	transition:height 0.6s;
+}
+
+#html:hover {
+	height:90%;
+}
+
+#css {
+	border:1px solid #008ae6;
+	background-color:#008ae6;
+	transition:height 0.6s;
+}
+
+#css:hover {
+	height:95%;
+}
+
+#php {
+	border:1px solid #6600cc;
+	background-color:#6600cc;
+	transition:height 0.6s;
+}
+
+#php:hover {
+	height:75%;
+}
+
+#wordpress {
+	border:1px solid #bf80ff;
+	background-color:#bf80ff;
+	transition:height 0.6s;
+}
+
+#wordpress:hover {
+	height:70%;
+}
+
+#ruby {
+	border:1px solid #e60000;
+	background-color:#e60000;
+	transition:height 0.6s;
+}
+
+#ruby:hover {
+	height:40%;
+}
+
+#python {
+	border:1px solid #ff80aa;
+	background-color:#ff80aa;
+	transition:height 0.6s;
+}
+
+#python:hover {
+	height:25%;
+}
+
+#ObjectC {
+	background-color:#00b300;
+	border:1px solid #00b300;
+	transition:height 0.6s;
+}
+
+#ObjectC:hover {
+	height:15%;
+}
+
+.projects {
+	width:90%;
+	height:500px;
+	margin:auto;
+	margin-bottom:70px;
+}
+
+.image {
+	height:300px;
+	width:300px;
+	float:left;
+	margin-right:70px;
+	position:relative;
+}
+
+.inner_text {
+	position:absolute;
+	width:100%;
+	height:3px;
+	transition:height 0.6s;
+	background-color:#008080;
+	color:#ffffff;
+	font-family:"Haragino Sans", sans-serif;
+	font-size:18px;
+	font-weight:lighter;
+}
+
+.inner_text p {
+	position:absolute;
+	display:none;
+	transition:0.6s;
+}
+
+.inner_text:hover {
+	height:100%;
+}
+
+.inner_text:hover p {
+	display:block;
+	width:100%;
+	height:100%;
+	text-align:left;
+	padding:10px 50px 10px 10px;
+}
+
+
+.art1 {
+	background-image:url("../img/behanced/brianhead/P1_Weeks_brianhead.jpg");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.art2 {
+	background-image:url("../img/behanced/typography/typography.png");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.art3 {
+	background-image:url("../img/behanced/2015skills/2015skillsshirt.jpg");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.art4 {
+	background-image:url("../img/behanced/2016skills/2016_skillsUSAshirt.jpg");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.art5 {
+	background-image:url("../img/behanced/indesign/IndesignLayout1.png");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.art6 {
+	background-image:url("../img/behanced/lillies/lilliesanimation.PNG");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.art4,
+.art5,
+.art6 {
+	margin-top:10px;
+}
+
+.art3,
+.art6 {
+	margin-right:0;
+}
+
+
+.description {
+	min-height:100px;
+	width:60%;
+	margin:auto;
+	border-bottom:1px solid #008080;
+	padding:20px;
+	font-family:"Haragino Sans", sans-serif;
+	font-size:18px;
+	font-weight:lighter;
+}
+
+.desc {
+	text-align:center;
+}
+
+.off {
+	display:none;
+}
+
+.medals {
+  margin:auto;
+  padding:20px;
+  width:90%;
+  min-height:600px;
+}
+
+.flipContainer {
+  perspective:1000;
+  float:left;
+  margin-left:50px;
+  margin-right:50px;
+}
+
+.silver {
+	background-image:url("../img/medals/silver.png");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+
+.gold {
+	background-image:url("../img/medals/gold.png");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+
+.bronze {
+	background-image:url("../img/medals/bronze.png");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+
+.natBronze {
+	background-image:url("../img/medals/natBronze.png");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+
+.back {
+	padding:50px 20px 0px 20px;
+}
+
+.tshirt {
+	background-color:#c0c0c0;
+}
+
+.web {
+	padding:20px;
+	background-color:#E5C100;
+}
+
+.natweb {
+	padding:90px 20px 0px 20px;
+}
+
+.back p,
+.back4 p {
+	color:#ffffff;
+	font-family:"Haragino Sans", sans-serif;
+	font-size:18px;
+	font-weight:lighter;
+	text-align:center;
+}
+
+.flipContainer:hover .flipper, .flipContainer.hover .flipper {
+  transform:rotateY(180deg);
+}
+
+.flipContainer, .front, .back {
+  height:200px;
+  width:200px;
+  border-radius:100%;
+}
+
+.flipper {
+  transition:0.6s;
+  transform-style:preserve-3d;
+  position:relative;
+}
+
+.front, .back {
+  backface-visibility:hidden;
+  position:absolute;
+}
+
+.front {
+  z-index:2;
+  background-color:#cd5832;
+  transform:rotateY(0deg);
+}
+
+.back {
+  background-color:#cd5832;
+  transform:rotateY(180deg);
+}
+
+.flipContainer4 {
+  perspective:1000;
+  margin:auto;
+  margin-top:25px;
+}
+
+.flipContainer4:hover .flipper4, .flipContainer4.hover .flipper4 {
+  transform:rotateY(180deg);
+}
+
+.flipContainer4, .front4, .back4 {
+  height:400px;
+  width:400px;
+  border-radius:100%;
+}
+
+.flipper4 {
+  transition:0.6s;
+  transform-style:preserve-3d;
+  position:relative;
+}
+
+.front4, .back4 {
+  backface-visibility:hidden;
+  position:absolute;
+  margin:auto;
+}
+
+.front4 {
+  z-index:2;
+  background-color:#cd5832;
+  transform:rotateY(0deg);
+}
+
+.back4 {
+  background-color:#cd5832;
+  transform:rotateY(180deg);
+}
+
+.wrapper3 {
+  margin:auto;
+}
+
+.gutter {
+  content:" ";
+  display:table;
+  clear:both;
+}
+
+/*form styles*/
+
+form {
+	width:60%;
+	min-height:300px;
+	margin:auto;
+	padding:30px;
+}
+
+input,
+textarea {
+	display:block;
+	width:100%;
+	min-height:40px;
+	margin-top:10px;
+	margin-bottom:10px;
+	border-radius:10px;
+}
+
+input:focus,
+textarea:focus {
+	outline:none;
+}
+
+input {
+	border:1px solid #000000;
+	padding-right:10px;
+	padding-left:10px;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+
+input[text] {
+	font-family:"Haragino Sans", sans-serif;
+	font-weight:lighter;
+}
+
+label {
+	font-family:"Haragino Sans", sans-serif;
+	font-size:18px;
+	font-weight:lighter;
+}
+
+textarea {
+	min-height:200px;
+	max-width:100%;
+	padding:10px;
+	font-family:"Haragino Sans", sans-serif;
+	font-size:18px;
+	font-weight:lighter;
+}
+
+#submit {
+	background-color:#008080;
+	font-size:20px;
+	font-family:"Haragino Sans", sans-serif;
+	font-weight:lighter;
+	color:#ffffff;
+	border:1px solid #008080;
+	padding:10px;
+}
+
+/*footer styles*/
+
+footer {
+	height:200px;
+	width:100%;
+	margin-bottom:0;
+	padding-left:20px;
+	padding-right:20px;
+	font-family:"Haragino Sans", sans-serif;
+	font-size:16px;
+	font-weight:lighter;
+	position:relative;
+}
+
+.title {
+	width:30%;
+	float:left;
+	text-align:center;
+	padding:70px 0px 70px 0px;
+	height:100%;
+	border-right:2px solid #008080;
+}
+
+.dis {
+	padding:70px 0px 70px 0px ;
+	text-align:center;
+	width:30%;
+	float:right;
+	height:100%;
+	border-left:2px solid #008080;
+}
+
+.dis p {
+	width:60%;
+	margin:auto;
+}
+
+.nav_foot {
+	width:40%;
+	float:left;
+	height:100%;
+	padding:10px;
+}
+
+.nav_foot ul {
+	margin-top:0;
+	padding-left:0;
+}
+
+.foot_li {
+	margin-top:10px;
+	margin-bottom:10px;
+	display:block;
+	height:40px;
+	width:100%;
+	border-radius:10px;
+	text-align:center;
+	text-transform:uppercase;
+	list-style-type:none;
+	padding:10px;
+}
+
+.foot_li a {
+	text-decoration:none;
+	color:#000000;
+}
+
+.foot_li a:hover {
+	color:#008080;
+	transition:0.2s;
+}
+
+.foot_li:first-child {
+	margin-top:0;
+}
+
+.foot_li:last-child {
+	margin-bottom:0;
+}
+
+@media only screen and (max-width:785px) {
+/*body styles 2*/
+
+.two_wrapper {
+	width:100%;
+	height:500px;
+	padding:30px;
+}
+
+.credentials {
+	width:60%;
+	height:100%;
+	margin:auto;
+}
+
+.tube {
+	width:100%;
+	height:30px;
+	border:1px solid #000000;
+	border-radius:20px;
+	margin-top:35px;
+	margin-bottom:35px;
+	margin-left:0px;
+	display:block;
+	padding:2px;
+	position:relative;
+}
+
+.tube:first-child {
+	margin-top:0px;
+	margin-left:0px;
+}
+
+.tube:last-child {
+	margin-bottom:0px;
+}
+
+.inner_tube {
+	position:absolute;
+	margin-right:2px;
+	left:2;
+	width:25px;
+	height:25px;
+	border-radius:100%;
+	border:1px solid #000000;
+}
+
+.description {
+	min-height:100px;
+	width:70%;
+	margin:auto;
+	border-bottom:1px solid #008080;
+	padding:20px;
+	font-family:"Haragino Sans", sans-serif;
+	font-size:18px;
+	font-weight:lighter;
+}
+
+.desc {
+	text-align:center;
+}
+
+.off {
+	display:none;
+}
+
+/*medals*/
+
+.medals {
+  width:90%;
+  margin:auto;
+  min-height:200px;
+}
+
+.flipContainer {
+  margin:0;
+  width:100px;
+  height:100px;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.front,
+.flipper,
+.back {
+  height:100px;
+  width:100px;
+  border-radius:100%;
+  float:left;
+}
+
+.flipContainer4 {
+  height:200px;
+  width:200px;
+}
+
+.front4,
+.flipper4,
+.back4 {
+  height:200px;
+  width:200px;
+  border-radius:100%;
+  margin:auto;
+}
+
+/*form styles*/
+
+form {
+	width:60%;
+	min-height:200px;
+	padding:0;
+}
+
+
+}
+
+@media only screen and (max-width:400px) {
+
+	/*form styles*/
+
+	form {
+		width:70%;
+		min-height:200px;
+		padding:0;
+	}
+
+}
